@@ -1,0 +1,38 @@
+main {
+    /* background-color: darkgreen; */
+    min-height: 100vh;
+}
+
+.hero {
+    /* max-width: 800px; */
+    min-height: 500px;
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    color: var(--primary-txt);
+    display: flex;
+}
+.hero-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    min-height: 250px;
+    width: 350px;
+    margin-left: 80px;
+}
+
+.btn  {
+    padding: 20px;
+    width: 8rem;
+    text-align: center;
+    /*background-color: var(--third-bg);
+    */background-color: rgba(250, 82, 82);
+    color: var(--primary-txt);
+    text-transform: capitalize;
+    border-radius: 5px ;
+    -webkit-border-radius: 5px ;
+    -moz-border-radius: 5px ;
+    -ms-border-radius: 5px ;
+    -o-border-radius: 5px ;
+}

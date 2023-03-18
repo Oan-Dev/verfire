@@ -14,11 +14,9 @@ html {
     --third-bg: rgba(250, 82, 82, 0.575); 
 }
 
-
-/* body {
-    background-color: darkgreen;
-} */
-
+a {
+    text-decoration: none;
+}
 
 
 header {
@@ -30,19 +28,15 @@ header {
     padding: 20px;
 }
 .logo a {
-    text-decoration: none;
     color: var(--primary-txt);
 }
 
 nav {
-    /* background-color: darkgreen; */
-    min-width: 50px;
-
+      min-width: 50px;
 }
  
 nav a   {
     color: var(--primary-txt);
-    text-decoration: none;
     text-transform: capitalize;
     margin: 10px;
     padding: 5px ;
