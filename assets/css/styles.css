@@ -22,7 +22,7 @@ a {
     text-decoration: none;
 }
 
-
+/**HEADER */
 header {
     display: flex;
     justify-content: space-between;
@@ -52,4 +52,21 @@ nav a:hover {
     border: 2px solid var(--primary-txt);
     border-radius: 10px;
   
+}
+/**FOOTER */
+
+footer {
+    min-height: 15vh;
+    padding-top: 20px;
+    background-color: var(--secondary-bg);
+}
+
+footer h4, footer p {
+    margin-top: 15px;
+    text-align: center;
+    color: var(--primary-txt);
+}
+footer h4, footer p span  {
+    text-transform: capitalize;
+    
 }
