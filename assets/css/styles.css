@@ -9,7 +9,7 @@ html {
     scroll-behavior: smooth;
     --primary-txt: #fff;
     --secondary-txt: #000000c2;
-    --primary-bg: #ffffffb7;
+    --primary-bg: #eee0e0f6;
     --secondary-bg: #000000e7;
     --third-bg: rgba(250, 82, 82, 0.575); 
 }
