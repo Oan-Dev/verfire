@@ -5,13 +5,17 @@
     padding: 0;
     box-sizing: border-box;
 }
-html {
-    scroll-behavior: smooth;
+:root {
     --primary-txt: #fff;
     --secondary-txt: #000000c2;
-    --primary-bg: #eee0e0f6;
+    --primary-bg: #e9e3e3f6;
     --secondary-bg: #000000e7;
-    --third-bg: rgba(250, 82, 82, 0.575); 
+    --danger-bg: rgba(245, 57, 57); 
+}
+
+
+html {
+    scroll-behavior: smooth;
 }
 
 a {

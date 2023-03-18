@@ -30,7 +30,8 @@ main {
     width: 8rem;
     text-align: center;
     /*background-color: var(--third-bg);
-    */background-color: rgba(250, 82, 82);
+    */
+    background-color: var(--danger-bg);
     color: var(--primary-txt);
     text-transform: capitalize;
     border-radius: 5px ;
@@ -41,7 +42,8 @@ main {
 }
 
 .search {
-    min-height: 40vh;
+    min-height: 50vh;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -49,8 +51,13 @@ main {
     gap: 50px;
     background-color: var(--primary-bg);
 }
- h2 {
+h2 {
     text-align: center;
+
+}
+
+ h2, h3 {
+    text-transform: capitalize;
  }
 
  .searchBar {
@@ -63,4 +70,22 @@ main {
     border-radius: 5px;
     border: none;
     margin-right: -8px;
+}
+
+.cards {
+    min-height: 70vh;
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap : 20px;
+    padding-top: 20px;
+    border-top: 3px solid var(--danger-bg);
+    max-width: 250px;
 }
