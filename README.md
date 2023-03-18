@@ -12,6 +12,6 @@ Integrating a landing page with HTML and CSS.
 ### Goal : 
 Test from konexio school for being accepted among them.
 
-### find issues ?
+## Find a bug ? 
 
 if you found an issue or would like to submit an improvement to this project, please submit an issue using the issue tab above. if you would like to submit a PR with a fix, reference the issue you created!
