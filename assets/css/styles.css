@@ -1,4 +1,8 @@
-
+@font-face {
+    font-family: 'JosefinSans', sans-serif;
+    src: url(../fonts/JosefinSans-Light.ttf) format('ttf');
+    src: url(../fonts/JosefinSans-SemiBold.ttf) format('ttf');
+}
 /* GLOBAL*/
 * {
     margin: 0;
@@ -11,6 +15,7 @@
     --primary-bg: #e9e3e3f6;
     --secondary-bg: #000000e7;
     --danger-bg: rgba(245, 57, 57); 
+    
 }
 
 
