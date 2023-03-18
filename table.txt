@@ -1,0 +1,40 @@
+/**
+ * Test JavaScript de Konexio pour admission d'entrée à l'école 
+ */
+
+// vérifier si un string contient la lettre "y".
+// Afficher "oui si il y en a un  et "non" dans le cas inverse.
+
+let str = "I don't know why";
+let result = "Non";
+
+for(let i = 0; i < str.length; i++) { 
+    if(str.match("y")) {
+        console.log("oui");
+    }else {
+        console.log("non");
+    }
+}
+
+for(let i = 0; i < result.length; i++) { 
+    if(result.match("y")) {
+        console.log("oui");
+    }else {
+        console.log("non");
+    }
+}
+
+/**  Explication du Code
+
+La boucle FOR permet de parcourir un tableau. 
+Dans ce cas de figure, elle tranforme la variable en tableau
+puis elle le parcourt de gauche à droite en algorithme nommé "Glouton". 
+
+La condition IF permet de statuer un booléen pour savoir si une condition est vérifiée dès lors le code, situé après les accolades, s'applique. 
+Si non le code situé après la condition ELSE s'applique 
+
+La méthode MATCH permet de vérifier si l'élément correspondant figure dans le tableau.
+
+Lorsque la méthode MATCH est introduite dans la condition
+alors la boucle remplit sa mission et s'arrête dès qu'une condition est vérifiée
+*/
