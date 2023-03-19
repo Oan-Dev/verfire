@@ -104,6 +104,10 @@ h2 {
 /** MOBILE LAYOUT */
 
 @media screen and (max-width: 400px) {
+    .hero-txt {
+        margin-left: 40px;
+    }
+    
     .mobile-btn {
         display: inline;
         width: 5%;
