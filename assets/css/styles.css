@@ -32,33 +32,50 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: var(--secondary-bg);
+    font-size: 18px;
     color: var(--primary-txt);
-    font-size: 1.5rem;
     padding: 20px;
+    min-height: 130px;
 }
 .logo a {
     color: var(--primary-txt);
 }
 
 nav {
-      min-width: 50px;
-}
- 
-nav a   {
-    width: 70px;
+      /* min-width: 50px; */
+      /* width: 90%; */
+      margin: 0 auto;
+      margin: 0 5px;
+      /* background-color: darkgreen; */
+      display: flex;
+    }
+    
+    nav a   {
+    /* min-width: 100px;
+    max-width: 100px; */
+    /* width: 80%; */
+    min-height: 70px;
+    justify-content: space-around;
     color: var(--primary-txt);
     text-transform: capitalize;
     margin: 10px;
     padding: 10px ;
     transition: border .3s;
-
+    /* background-color: darkblue; */
+    /* font-size: 92%; */
+    
 }
 
-nav a:hover {
+nav a:hover, nav a:focus {
     border: 2px solid var(--primary-txt);
     border-radius: 10px;
+    /* padding: 2%; */
+    /* margin: 12px; */
   
 }
+ 
+
+
 /**FOOTER */
 
 footer {
@@ -88,4 +105,8 @@ footer h4, footer p span  {
         padding: 2px;
         justify-items: center;
     }
+    nav a span {
+        white-space: pre;
+    }
+
 }
