@@ -74,6 +74,10 @@ h2 {
 }
 .fa-solid {
     color: var(--primary-txt);
+    font-size: 1.22rem;
+}
+.mobile-btn {
+    display: none;
 }
 
 
@@ -95,4 +99,20 @@ h2 {
     padding-top: 20px;
     border-top: 3px solid var(--danger-bg);
     max-width: 250px;
+}
+
+@media screen and (max-width: 400px) {
+    .mobile-btn {
+        display: inline;
+        width: 5%;
+        padding: 5px;
+
+    }
+    .desktop-btn {
+        display: none;
+    }
+    .searchBar input  {
+        min-width: 50px;
+        width: 80%;
+    }
 }
