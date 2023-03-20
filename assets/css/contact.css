@@ -53,5 +53,6 @@ button.btn {
     background-color: var(--secondary-bg);
     color: var(--primary-txt);
     border-radius: 5px;
+    text-transform: capitalize;
 }
 
