@@ -2,8 +2,15 @@
 
 main {
     min-height: 100vh;
+    padding-block: 20px;
     background-color: var(--primary-bg);
     /* background-color: darkgreen; */
+}
+h1 {
+    text-align: center;
+}
+h1:first-letter {
+    text-transform: uppercase;
 }
 
 form {
