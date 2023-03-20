@@ -9,39 +9,39 @@ main {
 h1 {
     text-align: center;
 }
-h1:first-letter, h2:first-letter  {
+h1:first-letter, h2:first-letter {
     text-transform: uppercase;
 }
 
-/** STORY CARD */
+/** CARDS */
 
-.card {
+.cards {
+    max-width: 400px;
+    margin: 0 auto;;
+}
+
+.cards, .card {
     display: flex;
     flex-direction: column;
     gap: 10px;
-}
-
-section {
-    width: 90%;
-    padding: 20px;
-    margin: 20px auto;
+    padding: 20px
     text-align: justify;
 }
-h2 {
-    margin-bottom: 20px;
+
+.card p {
+    padding-left: 10px;
+    text-align: justify;
+    min-height: 150px;
+    padding-right: 10px;
+    transition: border .3s;
+}
+
+.card:hover p {
+    border-left: 2px solid var(--danger-bg);
+
 }
 
 .btn {
-    min-height: 50px;
-    width: 90%;
-    margin: 0 auto;
-    /* background-color: darkgreen; */
-    display: flex;
-    justify-content:flex-end;
-}
-
-.call-action {
-    text-decoration: none;
     padding: 15px;
     width: 8rem;
     text-align: center;
@@ -50,4 +50,3 @@ h2 {
     text-transform: capitalize;
     border-radius: 5px ;
 }
-
