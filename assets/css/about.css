@@ -1,0 +1,51 @@
+/** MAIN BODY*/
+
+main {
+    min-height: 100vh;
+    padding-block: 20px;
+    background-color: var(--primary-bg);
+    /* background-color: darkgreen; */
+}
+h1 {
+    text-align: center;
+}
+h1:first-letter, h2:first-letter  {
+    text-transform: uppercase;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+section {
+    width: 90%;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: justify;
+}
+h2 {
+    margin-bottom: 20px;
+}
+
+.btn {
+    min-height: 50px;
+    width: 90%;
+    margin: 0 auto;
+    /* background-color: darkgreen; */
+    display: flex;
+    justify-content:flex-end;
+}
+
+.call-action {
+    text-decoration: none;
+    padding: 15px;
+    width: 8rem;
+    text-align: center;
+    background-color: var(--danger-bg);
+    color: var(--primary-txt);
+    text-transform: capitalize;
+    border-radius: 5px ;
+}
+
